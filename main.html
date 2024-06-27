@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./css/style_main.css" />
+        <title>Main Interface</title>
+    </head>
+    <body>
+        <div id="headText">
+            <h2>Pneumonia Detection</h2>
+        </div>
+        <div id="main-container">
+            <div id="upload">
+                <div class="uploadClass">
+                    <div id="uploadImage">
+                    </div>
+                    <label for="file">Upload Chest X-Ray:</label>
+                    <form
+                        action="/predict"
+                        method="POST"
+                        enctype="multipart/form-data"
+                    >
+                        <div class="buttons">
+                            <input type="file" id="file" name="file" accept="image/*" required >
+                            <button type="submit">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div id="result">
+                <div class="resultClass"> 
+
+                    <h3>Result:</h3>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
