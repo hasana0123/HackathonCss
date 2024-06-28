@@ -19,7 +19,7 @@ body {
 
 #main-container #upload {
     background-color: rgb(67, 61, 61);
-    height: 400px;
+    height: 600px;
     width: 600px;
     display: flex;
     flex-direction: column;
@@ -35,14 +35,14 @@ body {
 }
 
 #upload label {
-    font-size: 20px;
+    font-size: 30px;
     color: aliceblue;
 }
 
 .uploadClass {
     border: 2px solid white;
     border-radius: 5px;
-    height: 350px;
+    height: 450px;
     width: 500px;
     display: flex;
     flex-direction: column;
@@ -72,7 +72,7 @@ body {
     height: 35px;
     width: 150px;
     /* padding: 10px; */
-    font-size: 24px;
+    font-size: 25px;
     padding-top: 10px;
     display: inline-block;
     /* border-radius: 10px; */
@@ -85,21 +85,44 @@ body {
     border-radius: 5px;
     color: antiquewhite;
     font-size: 20px;
-    align-items: baseline;
+    align-items: self-end;
     padding-left: 0px;
 }
 
 #main-container #result {
-    background-color: rgb(111, 255, 0);
-    height: 400px;
+    background-color: rgb(67, 61, 61);;
+    height: 600px;
     width: 600px;
     border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border:2px solid rgb(255, 255, 255);
     
 }
 
 #main-container #result .resultClass
 {
-    border: 2px solid red;
-    height: 300px;
-    width: 100;
+    border: 2px solid rgb(255, 255, 255);
+    height: 450px;
+    width: 500px;
+    background-color: rgba(159, 185, 151, 0.666);
+    border-radius: 5px;
+    background-image: url(../images/searchmain.png);
+    /* background-size: cover; */
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+#result h3{
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    align-self: flex-start;
+    padding-left: 80px;
+}
+
+#result .resultImage
+{
+    /* content: url(../images/searchmain.png); */
 }
