@@ -48,7 +48,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    background-color: rgba(159, 185, 151, 0.666);
+    background-color:  rgba(232, 222, 222, 0.666) ;
 }
 
 #main-container #upload .buttons {
@@ -106,7 +106,7 @@ body {
     border: 2px solid rgb(255, 255, 255);
     height: 450px;
     width: 500px;
-    background-color: rgba(159, 185, 151, 0.666);
+    background-color: rgba(232, 222, 222, 0.666);
     border-radius: 5px;
     background-image: url(../images/searchmain.png);
     /* background-size: cover; */
